@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-section{
+    background-color: #162239;
+    padding: 5px 0;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+}
+.navbar-brand span{
+    color: #FFA123;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FFA123;
+    border: 1px solid #FFA123
+}
+.brand-logo:hover{
+    color: #fff !important;
+}
+.dropdown-menu[data-bs-popper] {
+    margin-top: 14px;
+}
+.dropdown-item {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+.dropdown-item:hover {
+    color: #FFA123;
+    background-color: #162239;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background: #162239;
+}
+.dropdown-divider {
+    border-top: 1px solid #0D1226;
+}
+
+.hero-section{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    position: relative;
+}
+.hero-section::before{
+    position: absolute;
+    content:'';
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 90vh;
+    background-color: #162239;
+    opacity: .7;
+}
+.hero-details{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.hero-details h5{
+    text-transform: uppercase;
+    color: #fff;
+}
+.hero-details h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 50px;
+}
+.hero-details h1 span{
+    color: #FFA123;
+}
+.hero-btn{
+    margin-top: 20px;
+    background-color: #FFA123;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+.hero-btn:hover{
+    background-color: transparent;
+    border: 2px solid #FFA123;
+    color: #fff;
+}
+.school-section{
+    padding: 80px 0;
+    background-color: #162239;
+}
+.school-title{
+    text-align: center;
+}
+.school-title h1{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 25px;
+    border: 1px solid rgb(228, 228, 228);
+    padding: 12px 5px;
+    font-weight: 600;
+}
+.school-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+.school-heading h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+.school-heading h5 i{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.school-heading h5:hover{
+    color: #FFA123;
+}
+.school-img{
+    margin-top: 50px;
+}
+.school-image{
+    position: relative;
+}
+.image1{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.image1 img{
+    width: auto;
+    height: 200px;
+}
+.image2 img{
+    width: auto;
+    height: 200px;
+}
+.image3 img{
+    width: auto;
+    height: 200px;
+}
+.image2{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.image3{
+    position: absolute;
+    right: 150px;
+    top: 20px;
+}
+.school-details{
+    margin: 50px 0;
+    color: #fff;
+}
+.school-details h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.school-details p{
+    margin-top: 30px;
+}
+.timer-section{
+    background-image: url(../images/form-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 80px 0;
+}
+.timer-section::before{
+    content: '';
+    position: absolute;
+    background-color: #162239;
+    opacity: .8;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.timer-details{
+    z-index: 100;
+}
+.timer-details h5{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 600;
+}
+.timer-details h5 span{
+    color: #FFA123;
+}
+.course-timer{
+    display: inline-flex;
+    margin-top: 30px;
+}
+.timer1{
+    background: rgba(255 , 255, 255, 0.1);
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+    text-align: center;
+}
+.timer1 h1{
+    font-size: 35px;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+.timer1 h5{
+    font-size: 16px;
+    color: #FFA123;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.timer-form{
+    z-index: 100;
+    text-align: center;
+}
+.timer-form p{
+    color: #fff;
+    background: rgba(255 , 255, 255, 0.3);
+    padding: 15px 35px;
+    margin-bottom: 10px;
+}
+.form-control{
+    background-color: transparent;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+.form-btn{
+    background-color: #FFA123;
+    color: #fff;
+    width: 150px;
+    padding: 10px 15px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+.form-btn:hover{
+    color: #fff;
+    border: 1px solid #FFA123;
+    background-color: transparent;
+}
+.form-bg{
+    background: rgba(255 , 255, 255, 0.1);
+    padding: 40px 30px;
+}
+.form-details input::placeholder{
+    color: rgb(218, 218, 218);
+}
+.course-choose-section{
+    background-color: #162239;
+    padding: 80px 0;
+}
+.course-selection{
+    margin-top: 50px;
+}
+.course-image{
+    
+}
+.course-image img{
+    height: 175px;
+}
+.course-details{
+    background-color: #fff;
+    padding: 20px 25px;
+}
+.course-details h5{
+    color: #0D1226;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+.course-details p{
+    color: rgb(110, 110, 110);
+    font-size: 15px;
+}
+.author-image{
+
+}
+.author-image ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.author-image ul li{
+    
+}
+.author-image ul li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #FFA123;
+}
+.author-image ul li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.author-image ul li a i{
+    margin-left: 5px;
+    font-size: 16px;
+}
+.video-section{
+    background-image: url(../images/video-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 0;
+    position: relative;
+}
+.video-section::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #162239;
+    opacity: .5;
+}
+.video-details{
+    z-index: 100;
+    color: rgb(230, 230, 230);
+}
+.video-details h5{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.video-details h1{
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.video-details h1 span{
+    color: #FFA123;
+}
+.video-details p{
+    margin-top: 20px;
+}
+.video-details p a{
+    text-decoration: none;
+}
+.video-btn{
+    margin-top: 20px;
+    background-color: #FFA123;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+.video-btn:hover{
+    border: 1px solid #FFA123;
+    color: #fff;
+    background-color: transparent;
+}
+.video-tutorial{
+    z-index: 100;
+}
+.contact-section{
+    background-color: #162239;
+    padding: 80px 0;
+}
+.contact-form{
+    margin-top: 50px;
+    background: rgba(255 , 255, 255, 0.1);
+    padding: 40px 30px;
+}
+.contact-input{
+    margin-top: 25px;
+    border: transparent;
+    background: rgba(255 , 255, 255, 0.2);
+}
+.contact-input::placeholder{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+}
+.contact-map{
+    margin-top: 50px;
+}
+.map-image{
+
+}
+.map-image img {
+    height: 420px;
+    width: 530px;
+}
+.divider{
+    border: 1px solid rgb(196, 196, 196);
+}
+.footer-section{
+    background-color: #162239;
+    padding: 25px 0;
+}
+.footer-content{
+    text-transform: uppercase;
+    color: #fff;
+}
+.footer-content p{
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.footer-content p i{
+    margin-right: 5px;
+}
+.footer-content p span{
+    color: #FFA123;
+}
